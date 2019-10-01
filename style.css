@@ -1,0 +1,34 @@
+#container{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width:156px;
+    font-family: sans-serif;
+}
+
+.square-container{
+    border-radius: 3px;
+    width: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid #4a4a4a;
+}
+
+.square{
+    width: 50px;
+    height: 50px;
+    border: 1px #4a4a4a solid;
+    margin: 0px;
+    text-align: center;
+}
+.square:hover{
+    background-color: #52c1b210;
+    cursor: pointer;
+}
+#resetBtn{
+    margin-top:10px;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    background-color: white;
+}
